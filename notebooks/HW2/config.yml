@@ -1,0 +1,14 @@
+api:
+  api_service_name: "youtube"
+  api_version: "v3"
+  keys:
+    - "AIzaSyASVwQKxOyGt7Guja2xDC0F4TcKzdDqmmQ"
+    - "AIzaSyA7S6Uuar4TUrEPow3uxcezemgxa3rCu2A"
+    - "AIzaSyA_Kx-UU6rGGYBO6Snx7J7knKVsO_GjITE"
+    - "AIzaSyD1GgNid4d9qWgtNoZplSuRIkp1kJPLIvI"
+    - "AIzaSyArH95HqoERgT77mcMpXGjvKOQt0b2K7mU"
+    - "AIzaSyDrD0MhMK1N4TyCvY8p6dCypt2BBAwh01E"
+  DATA_PATH: "data"
+  parameters:
+    date_after: "2022-01-01T00:00:00Z"
+    date_before: "2023-01-01T00:00:00Z"
