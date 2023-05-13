@@ -2425,6 +2425,21 @@ files = [
 plugins = ["importlib-metadata"]
 
 [[package]]
+name = "pymystem3"
+version = "0.2.0"
+description = "Python wrapper for the Yandex MyStem 3.1 morpholocial analyzer of the Russian language."
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pymystem3-0.2.0-py3-none-any.whl", hash = "sha256:0bfdb0c2c57157f413c85f3e5f54a41f294880c3d6e8028066e71598ee6b52aa"},
+    {file = "pymystem3-0.2.0.tar.gz", hash = "sha256:1aaed6a15451cc73f5750bcda77559e681215e1e391b35dd4325bd132a3afb95"},
+]
+
+[package.dependencies]
+requests = "*"
+
+[[package]]
 name = "pyparsing"
 version = "3.0.9"
 description = "pyparsing module - Classes and methods to define and execute parsing grammars"
@@ -3645,4 +3660,4 @@ requests = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.11"
-content-hash = "7dd3e97dd7269ef2b8a912e1493bb306864fa8249a65a48bfa34a00a1a471adc"
+content-hash = "9c6bb6491800a035cfa3e4d5a47ddb082374ee412b1964a63a2128b5ccba1810"
