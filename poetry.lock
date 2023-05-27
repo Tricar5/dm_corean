@@ -2832,18 +2832,17 @@ test = ["pytest (>=6,!=7.0.0,!=7.0.1)", "pytest-cov (>=3.0.0)", "pytest-qt"]
 
 [[package]]
 name = "randan"
-version = "0.2.1"
+version = "0.2.2"
 description = "A python package for the analysis of social data"
 category = "main"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "randan-0.2.1-py3-none-any.whl", hash = "sha256:a232714bc39d44d1b3b95a45745b967ce416fb896b77e5b62c9b89965a45a326"},
-    {file = "randan-0.2.1.tar.gz", hash = "sha256:8592f0e26578e85ddb69c8ef80f861c88b30ced305c73dcbdf5d04ccaaef78b8"},
+    {file = "randan-0.2.2.tar.gz", hash = "sha256:6a16d0135200c0c3f35dc405658ee0c1ed6216f8abe56fab650bc0f7b04f21d1"},
 ]
 
 [package.dependencies]
-factor-analyzer = "*"
+factor_analyzer = "*"
 graphviz = ">=0.14"
 matplotlib = ">=3.1.1"
 numpy = ">=1.18.4"
@@ -3793,4 +3792,4 @@ requests = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.11"
-content-hash = "044973c599282d56e3956330986deca376c5ee0fb61954d3b99720e8e6a76581"
+content-hash = "8527ee93d6173b43404713d69a9880fc4c7c12b571bd2c0b5f39509165a3137c"
